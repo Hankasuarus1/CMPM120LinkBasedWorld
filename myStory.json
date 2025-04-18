@@ -1,0 +1,84 @@
+{
+    "Title": "Monday",
+    "Credits": "Created by Hank Liu(hacliu@ucsc.edu).",
+    "InitialLocation": "CMPM120Section",
+    "Locations": {
+        "CMPM120Section": {
+            "Body": "This is the section at 1:20 for CMPM120. There are nice people inside the classroom",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "CrownApartments"
+                },
+                {
+                    "Text": "Portal",
+                    "Target": "PorterCave"
+                }
+            ]
+        },
+        "CrownApartments": {
+            "Body": "This is the Crown Apartments, it has a lot of nerdy people in it.",
+            "Breed": "Golden Retriever",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "CMPM120Section"
+                },
+                {
+                    "Text": "South",
+                    "Target": "CMPM120Class"
+                },
+                {
+                    "Text": "Portal",
+                    "Target": "PorterCave"
+                }
+            ]
+        },
+        "CMPM120Class": {
+            "Body": "This is the CMPM120 class, there are a lot of futuree game designers in the class.",
+            "Breed": "Bulldog",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "CrownApartments"
+                },
+                {
+                    "Text": "South",
+                    "Target": "CSE101Section"
+                },
+                {
+                    "Text": "Portal",
+                    "Target": "PorterCave"
+                }
+            ]
+        },
+        "CSE101Section": {
+            "Body": "This is the CSE 101 Section, a section for a difficult class. The bane of beginner programmers",
+            "Breed": "Great Dane",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "CMPM120Class"
+                },
+                {
+                    "Text": "Portal",
+                    "Target": "PorterCave"
+                }
+            ]
+        },
+        "PorterCave": {
+            "Body": "You have entered the place of no return. You see a giant hole",
+            "Choices": [
+                {
+                    "Text": "Down",
+                    "Target": "BottomlessPit"
+                }
+            ]
+        },
+        "BottomlessPit": {
+            "Body": "You jump in the bottomless put, falling for the rest of eternity. After you reach terminal velocity, falling got boring."
+        }
+
+
+    }
+}
